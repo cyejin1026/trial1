@@ -1,0 +1,21 @@
+{
+  "name": "today-news",
+  "version": "1.0.0",
+  "private": true,
+  "description": "오늘의 뉴스 웹 서비스 최소 시작 구조",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:migrate": "node scripts/migrate.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^7.62.0",
+    "pg": "^8.23.1"
+  }
+}
